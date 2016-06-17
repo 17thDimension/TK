@@ -20,6 +20,5 @@
 				ShaderParamsChanged(this, e);
 		}
 
-
 	}
 }

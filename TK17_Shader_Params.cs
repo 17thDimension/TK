@@ -28,9 +28,8 @@
 		{
 			for (int i = 0; i < floatparams.Count; ++i)
 			{
-				mat.SetFloat(m_fparams[i].key, m_fparams[i].value);
+				mat.SetFloat(floatparams[i].key, floatparams[i].value);
 			}
-			renderer.SetPropertyBlock(m_mpb);
 		}
 	}
 }
